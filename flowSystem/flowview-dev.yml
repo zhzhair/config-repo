@@ -1,0 +1,13 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/tkheal_flowsystem?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+
+logging.file: E:/u02/nginx/tkheal_flowsystem/process
+
+#logging.level:
+  #com.example.demo: debug
